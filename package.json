@@ -1,0 +1,30 @@
+{
+  "name": "nytreact",
+  "version": "1.0.0",
+  "description": "Scraper week 10",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpagan6/nytreact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpagan6/nytreact/issues"
+  },
+  "homepage": "https://github.com/mpagan6/nytreact#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.13",
+    "morgan": "^1.9.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "request": "^2.85.0"
+  }
+}
