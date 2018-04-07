@@ -2,7 +2,7 @@ var React = require("react");
 var Form = require("./children/Form");
 var Results = require("./children/Results");
 var History = require("./children/History");
-var helpers = require("./utils/helpers");
+
 var Main = React.createClass({
 
   getInitialState: function() {
@@ -25,9 +25,7 @@ var Main = React.createClass({
   componentDidUpdate: function() {
     console.log("Main.js componentDidUpdate");
     return "Main.js componentDidUpdate";
- 
-
-  
+   
   },
  
   setTerm: function(term) {
